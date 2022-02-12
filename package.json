@@ -1,0 +1,25 @@
+{
+  "name": "ts-node-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src -e ts --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hua-bang/ts-node-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hua-bang/ts-node-utils/issues"
+  },
+  "homepage": "https://github.com/hua-bang/ts-node-utils#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "tslib": "^2.3.1"
+  }
+}
