@@ -1,5 +1,5 @@
 import http from 'http';
-import { HTTP_PORT } from './config/network';
+import { HTTP_PORT } from './config';
 
 const server = http.createServer();
 
